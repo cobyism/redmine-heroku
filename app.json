@@ -1,0 +1,24 @@
+{
+  "name": "Remine on Heroku",
+  "description": "The Redmine project management application, made deployable to Heroku.",
+  "keywords": [
+    "project management",
+    "issue tracking",
+    "collaboration"
+  ],
+  "website": "https://github.com/cobyism/redmine-heroku",
+  "repository": "https://github.com/cobyism/redmine-heroku",
+  "logo": "https://cloud.githubusercontent.com/assets/296432/3865668/0fbd67c8-1fa3-11e4-9d4e-b33353725c60.png",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  },
+  "addons": [
+    "sendgrid"
+  ]
+}
