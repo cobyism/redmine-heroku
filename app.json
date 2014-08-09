@@ -8,7 +8,7 @@
   ],
   "website": "https://github.com/cobyism/redmine-heroku",
   "repository": "https://github.com/cobyism/redmine-heroku",
-  "logo": "https://cloud.githubusercontent.com/assets/296432/3865668/0fbd67c8-1fa3-11e4-9d4e-b33353725c60.png",
+  "logo": "https://cloud.githubusercontent.com/assets/296432/3865771/e9dde8ba-1fa8-11e4-9ce6-193fc429175c.png",
   "env": {
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
