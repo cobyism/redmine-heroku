@@ -1,0 +1,27 @@
+== Redmine Circle theme
+
+Copyright (C) 2011-2014 Kirill Bezrukov
+http://www.redminecrm.com/
+
+== 2014-04-09 v1.0.2
+
+* Disabled context menu fixes
+* New date picker styles
+* Padding for done ration progress
+
+== 2014-01-19 v1.0.1
+
+* Issues list priorities colors
+* Table cells padding
+* Table row select and hover styles
+* iOS buttons support
+* Context menu styles
+* Issue tip styles
+
+== 2014-01-17 v1.0.0
+
+* Initial release
+* Styles for selects and inputs
+* Styles for buttons
+* Styles for RedmineCRM plugins (CRM, Invoices, Helpdesk, Finance, Products, People)
+* Styles for Modal windows and Date pickers
