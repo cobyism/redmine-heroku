@@ -1,5 +1,5 @@
 {
-  "name": "Remine on Heroku",
+  "name": "Redmine on Heroku",
   "description": "The Redmine project management application, made deployable to Heroku.",
   "keywords": [
     "project management",
