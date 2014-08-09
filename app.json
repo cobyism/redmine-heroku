@@ -13,10 +13,15 @@
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": "secret"
+    },
+    "REDMINE_LANG": {
+      "description": "Set the default language for this Redmine installation.",
+      "value": "en",
+      "required": "true"
     }
   },
   "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
+    "postdeploy": "bundle exec rake heroku:bootstrap"
   },
   "addons": [
     "heroku-postgresql",
