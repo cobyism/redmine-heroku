@@ -6,7 +6,7 @@ namespace :heroku do
 
     if Redmine::DefaultData::Loader::no_data?
       language = ENV['REDMINE_LANG'] || 'en'
-      set_language_if_valid(language)
+      Redmine::I18n.set_language_if_valid(language)
       Rake::Task["redmine:load_default_data"].invoke
     end
   end
