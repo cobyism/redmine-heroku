@@ -96,7 +96,7 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
-    redcarpet (2.3.0)
+    redcarpet (3.5.1)
     request_store (1.0.5)
     rmagick (2.13.3)
     ruby-openid (2.3.0)
@@ -147,7 +147,7 @@ DEPENDENCIES
   rack-openid
   rails (= 3.2.19)
   rdoc (>= 2.4.2)
-  redcarpet (~> 2.3.0)
+  redcarpet (~> 3.5.1)
   request_store (= 1.0.5)
   rmagick (>= 2.0.0)
   ruby-openid (~> 2.3.0)
